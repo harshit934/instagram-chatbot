@@ -50,9 +50,9 @@ app.post("/webhook", async (req, res) => {
         console.log("User said:", receivedText);
         console.log("Sender ID:", senderId);
 
-        // Send message to local Ollama
+        // Send message to Ollama through ngrok
         const ollamaResponse = await fetch(
-            "http://127.0.0.1:11434/api/generate",
+            "https://cough-until-record.ngrok-free.dev/api/generate",
             {
                 method: "POST",
                 headers: {
