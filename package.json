@@ -2,7 +2,7 @@
   "name": "instagram-chatbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +12,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@google/genai": "^2.22.0",
+    "@google/genai": "^2.24.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "openai": "^7.15.0"
+    "franc": "^6.2.0"
   }
 }
